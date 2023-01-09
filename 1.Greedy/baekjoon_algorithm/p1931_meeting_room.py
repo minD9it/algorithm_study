@@ -13,3 +13,6 @@ meeting_duration  = []
 for m in meeting_time:
     meeting_duration.append(m[1] - m[0]) # 회의 시간 구하기
 
+
+# 마지막 회의 시간을 기준으로 계산하는 것으로 해보자 
+# numpy.unique를 사용하면 array 안에 리스트가 오름차순으로 정렬된다.
