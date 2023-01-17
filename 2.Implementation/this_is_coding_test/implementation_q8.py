@@ -8,7 +8,7 @@ for i in alpha_digit:
         digit_sum += int(i)
     elif i.isalpha():
         alpha_list.append(i)
-1
+
 alpha_list.sort()
 alpha_list.append(str(digit_sum))
 print(''.join(alpha_list))
